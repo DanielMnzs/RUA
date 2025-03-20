@@ -17,10 +17,12 @@
         
         <div class="login">    
             <b id = "titulo">LOGIN</b>
-            <input id = "username" type="text" placeholder=" ID" style="padding-left: 5px;">
-            <input id="password" type="password" placeholder=" Senha" style="padding-left: 5px;">
-            <button id = "LOGIN">Login</button>
-            <a id="Cadastre-se" href = "cadastro.php"><button>Cadastre-se</button></a>   
+            <form action="login.php" method="post">    
+                <input name="id_login" id = "username" type="text" placeholder=" ID" style="padding-left: 5px;">
+                <input name="password_login" id="password" type="password" placeholder=" Senha" style="padding-left: 5px;">
+            </form>
+                <button type="submit" id = "LOGIN">Login</button>
+            <a id="Cadastre-se" href = "cadastro.html"><button>Cadastre-se</button></a>   
             
             
         </div>
